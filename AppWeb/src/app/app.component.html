@@ -1,0 +1,98 @@
+<div class="wrapper bg-dark">
+   <div class="container">
+      <div class="row justify-content-start">
+         <div class="col-6">
+            <div class="container">
+               <div class="mb-4">
+                  <label for="e1" class="form-label"><h2>Seleccione Archivo</h2></label>
+                  <div class="input-group" id="e1" aria-describedby="input-group">
+                     <button class="btn btn-outline-primary" type="button" (click)="cargar()" id="inputGroupFileAddon03">Cargar</button>
+                     <input type="file" class="form-control" id="inputGroupFile03" accept=".csv"
+                        aria-describedby="inputGroupFileAddon03" (change)="upload($event)" aria-label="Upload">
+                  </div>
+               </div>
+
+               <div class="mb-4">
+                  <label for="e2" class="form-label"><h2>Seleccione un Criterio de Finalizacion</h2></label>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="seleccion2-" id="seleccion2-1" (change)="getFinModos(0, $event)">
+                     <label class="form-check-label" for="seleccion2-1">
+                        Un valor minimo alcanzado por una solucion de la poblacion
+                     </label>
+                  </div>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="seleccion2-" id="seleccion2-2" (change)="getFinModos(1, $event)" checked>
+                     <label class="form-check-label" for="seleccion2-2">
+                        Maximo numero de generaciones
+                     </label>
+                  </div>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="seleccion2-" id="seleccion2-3" (change)="getFinModos(2, $event)" checked>
+                     <label class="form-check-label" for="seleccion2-3">
+                        Un porcentaje de la población que tenga un valor fitness igual
+                     </label>
+                  </div>
+               </div>
+
+               <div class="mb-4">
+                  <h2>Seleccione un Modo de Seleccion de Padres</h2>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="seleccion1-" id="seleccion1-1" (change)="getSelModos(0, $event)">
+                     <label class="form-check-label" for="seleccion1-1">
+                        Selección aleatoria
+                     </label>
+                  </div>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="seleccion1-" id="seleccion1-2" (change)="getSelModos(1, $event)" checked>
+                     <label class="form-check-label" for="seleccion1-2">
+                        Selección de los padres con mejor valor fitness
+                     </label>
+                  </div>
+                  <div class="form-check">
+                     <input class="form-check-input" type="radio" name="seleccion1-" id="seleccion1-3" (change)="getSelModos(2, $event)" checked>
+                     <label class="form-check-label" for="seleccion1-3">
+                        Selección de padres en posiciones impares o solo en posiciones pares
+                     </label>
+                  </div>
+               </div>
+
+               <button type="button" class="btn btn-success" (click)="generar()">Generar Modelo</button>
+            </div>
+         </div>
+
+         <div class="col-6">
+            <div class="container">
+               <h2>Predecir Nota del Estudiante</h2>
+               <br>
+               <div>
+                  <div class="mb-3 row">
+                     <label for="p1" class="col-sm-2 col-form-label">Proyecto 1</label>
+                     <div class="col-sm-10">
+                        <input type="text" class="form-control" id="p1">
+                     </div>
+                  </div>
+                  <div class="mb-3 row">
+                     <label for="p2" class="col-sm-2 col-form-label">Proyecto 2</label>
+                     <div class="col-sm-10">
+                        <input type="text" class="form-control" id="p2">
+                     </div>
+                  </div>
+                  <div class="mb-3 row">
+                     <label for="p3" class="col-sm-2 col-form-label">Proyecto 3</label>
+                     <div class="col-sm-10">
+                        <input type="text" class="form-control" id="p3">
+                     </div>
+                  </div>
+                  <div class="mb-3 row">
+                     <label for="p4" class="col-sm-2 col-form-label">Proyecto 4</label>
+                     <div class="col-sm-10">
+                        <input type="text" class="form-control" id="p4">
+                     </div>
+                  </div>
+               </div>
+               <button type="button" class="btn btn-success">Calcular Nota</button>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
