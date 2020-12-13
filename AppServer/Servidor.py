@@ -46,15 +46,18 @@ def generar():
         Singleton.getInstance().criterioSeleccion = int(data['sel'])
 
         #obtener datos
-        tp = Singleton.getInstance().tamPoblacion
         e = Singleton.getInstance().entrada
         cf = Singleton.getInstance().criterioFin
-        ef = Singleton.getInstance().entradaFin
         cs = Singleton.getInstance().criterioSeleccion
-        es = Singleton.getInstance().entradaSeleccion
+
+        #print(cf)
+        #print(cs)
 
         #ejecutar algoritmo
-        algoritmo = Algoritmo(tp, e, cf, ef, cs, es)
+        algoritmo = Algoritmo()
+        algoritmo.entrada = e
+        algoritmo.criterioFin = cf
+        algoritmo.criterioSel = cs
         algoritmo.ejecutar()
 
         return jsonify({'status': '200'})
