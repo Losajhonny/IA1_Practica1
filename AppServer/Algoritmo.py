@@ -1,6 +1,7 @@
 import random
 import numpy as np
 from Nodo import *
+from Singleton import *
 
 class Algoritmo:
 
@@ -9,37 +10,76 @@ class Algoritmo:
         self.criterioFin        = 0
         self.criterioSel        = 0
 
-        self.tamPoblacion       = 5
+        # maximo en generaciones - sel[0, 1, 2]
+        self.tamPoblacion       = 20
         self.tamIndividuo       = 4
-        self.maxGeneraciones    = 800
-        self.minFitness         = 4
-        self.espFitness         = 4
-        self.espPorcentaje      = 0.8
-        self.noSelPadres        = 3
+        self.maxGeneraciones    = 5000
+        self.minFitness         = 0.2
+        self.espFitness         = 0.2
+        self.espPorcentaje      = 0.95
+        self.noSelPadres        = 10
+
+        # valor minimo alcanzado - sel[1, 2]
+        #self.tamPoblacion       = 20
+        #self.tamIndividuo       = 4
+        #self.maxGeneraciones    = 5000
+
+        #self.minFitness         = 100   #solo para 2 de sel
+        #self.espFitness         = 100   #prueba para porcentaje
+        #self.espPorcentaje      = 0.8   #prueba para porcentaje
+        
+        #self.noSelPadres        = 10
+
+
+        # todo con maxNumGen termina bien
+        # maxNumGen = SelAleatoria  - si termina
+
+        # valMinimo = selAleatoria  - si termina
+        # valMinimo = selMejorFit   - si termina
+        # valMinimo = selImpar      - no termina
+
+        # porcentaje = aleatoria    - no termina
+        # porcentaje = selMejorFit  - si termina
+        # porcentaje = selImpar     - no termina
+
+
 
     def ejecutar(self):
-        print("Algoritmo corriendo\n")
+        print("\n")
+        print("****************************************************")
+        print("**********      Algoritmo corriendo       **********")
+        print("****************************************************")
+
         generacion = 0
         poblacion = self.inicializarPoblacion()
         fin = self.verificarCriterio(poblacion, generacion)
 
         while(fin == None):
+            print("########## generacion: " + str(generacion) + " ##########")
             padres = self.seleccionarPadres(poblacion)
             poblacion = self.emparejar(padres)
             generacion += 1
             fin = self.verificarCriterio(poblacion, generacion)
 
+        # mostrar fin
+        self.printPoblacion(poblacion)
         print("*********** GENERACION ", generacion, " ***************")
-        ordenDescendente = sorted(poblacion, key=lambda item: item.fitness, reverse=False)
         
-        self.printPoblacion(ordenDescendente)
-        print(self.calcularNota(ordenDescendente[0].solucion, [55, 65, 71, 61, 63.7, 0]))
+        # obtener el mejor fitness
+        ordenDescendente = sorted(poblacion, key=lambda item: item.fitness, reverse=False)
+        Singleton.getInstance().modelo = ordenDescendente[0].solucion
+        Singleton.getInstance().generacion = generacion
+        print("modelo:", Singleton.getInstance().modelo)
+        print("")
+        print("")
+
 
     def printPoblacion(self, poblacion):
         for i in range(len(poblacion)):
-            print("# poblacion[", i, "]")
-            print(poblacion[i].solucion)
-            print(poblacion[i].fitness)
+            print("~~~~~~~~~~ poblacion[", i, "] ~~~~~~~~~~")
+            print("solucion:", poblacion[i].solucion)
+            print("fitness:", poblacion[i].fitness)
+
 
 
     """
@@ -51,10 +91,15 @@ class Algoritmo:
         for i in range(self.tamPoblacion):
             solucion = []
             for j in range(self.tamIndividuo):
-                solucion.append(random.uniform(-2, 2))
+                solucion.append(self.getRango())
             poblacion.append(Nodo(solucion))
 
         return poblacion
+
+
+
+    def getRango(self):
+        return random.uniform(-2, 2)
 
 
 
@@ -84,10 +129,17 @@ class Algoritmo:
             #Un porcentaje de la población que tenga un valor fitness igual
             suma_total = 0
 
-            for nodo in poblacion:
-                if round(nodo.fitness) <= self.espFitness:
+            #print(len(poblacion))
+
+            for i in range(len(poblacion)):
+                if round(float(poblacion[i].fitness)) <= float(self.espFitness):
+                    #print(poblacion[i].fitness, "<=", self.espFitness)
                     suma_total += 1
-            
+            #print("")
+            #print(self.espPorcentaje)
+            #print(self.espFitness)
+            #print("")
+            #print(suma_total / len(poblacion))
             if (suma_total / len(poblacion)) >= self.espPorcentaje:
                 result = True
             
@@ -132,7 +184,7 @@ class Algoritmo:
             fila = self.entrada[i]
             valor += ((fila[4] - fila[5]) ** 2)
         
-        return valor / 4
+        return valor / len(self.entrada)
 
 
 
@@ -274,6 +326,6 @@ class Algoritmo:
             for i in range(self.tamIndividuo):
                 numRandom = random.randint(0, 1)
                 if numRandom == 0:
-                    solucion[i] = random.uniform(-2, 2) 
+                    solucion[i] = self.getRango()
 
         return nsolucion

@@ -21,12 +21,17 @@ export class AppComponent {
    finModos = [false, false, true]
    selModos = [false, false, true]
 
+   nota = { proyecto1: 0, proyecto2: 0, proyecto3: 0, proyecto4: 0 }
+   nombre = ""
+
    upload(event: any) {
       const files = event.target.files;
       if (files.length == 0) return;
 
       const reader = new FileReader();
       const file = files[0];
+      this.nombre = file.name
+      this.notas = []
 
       reader.onload = (e) => {
          const file = e.target.result;
@@ -53,7 +58,7 @@ export class AppComponent {
    }
 
    cargar() {
-      Conexion.getInstance().POST('load', { notas: this.notas });
+      Conexion.getInstance().POST('load', { notas: this.notas, nombre: this.nombre });
    }
 
    getFinModos(noModo, event) {
@@ -80,6 +85,7 @@ export class AppComponent {
       for(let i = 0; i < this.finModos.length; i++) {
          if(this.finModos[i]) {
             finModo = i;
+            break;
          }
       }
 
@@ -87,18 +93,28 @@ export class AppComponent {
       for(let i = 0; i < this.selModos.length; i++) {
          if(this.selModos[i]) {
             selModo = i;
+            break;
          }
       }
 
       let res = await Conexion.getInstance().POST('generar', { fin: finModo, sel: selModo });
 
       if (res != null) {
-         if (res.status == 200) {
-            alert('Enviado...');
-         }
-         else {
+         if (res.status == 200)
+            alert('Modelo Generado...');
+         else
             alert("Cargar csv");
-         }
+      }
+   }
+
+   async calcular() {
+      let res = await Conexion.getInstance().POST('calcular', this.nota);
+
+      if (res != null) {
+         if (res.status == 500)
+            alert('Debe generar el modelo');
+         else
+            alert(res.nota);
       }
    }
 }

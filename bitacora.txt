@@ -1,0 +1,460 @@
+#####################################################
+Fecha: 12/13/20
+Hora: 10:52:35
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.025560156739829587,  w2: 0.20706903360898243,  w3: 0.37802065888452097,  w4: 0.4317849224274952, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 10:56:46
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.1007850913240298,  w2: 0.33209815080360894,  w3: 0.07333016910246437,  w4: 0.47917458308435146, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 11:05:37
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.1507756651041543,  w2: 0.1428265276689924,  w3: 0.3991241839008728,  w4: 0.29807462134113294, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 11:07:41
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.04226858238321762,  w2: 0.3757864400347559,  w3: 0.39690245470003127,  w4: 0.3087303166118205, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 11:11:01
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.11669557329811076,  w2: 0.1692652984280998,  w3: 0.3089499638129274,  w4: 0.39299067135097676, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 11:45:14
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.1496133353628455,  w2: 0.09204745860358754,  w3: 0.2943958267962765,  w4: 0.47601797966897985, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 11:46:23
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.11673719277896621,  w2: 0.261664653656954,  w3: 0.2762885644058337,  w4: 0.3494642321611039, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 11:57:48
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.2629271137208864,  w2: 0.2278779534777371,  w3: 0.2751447458445644,  w4: 0.2629270430232009, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 12:19:12
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.24769698570199772,  w2: 0.12292946948128014,  w3: 0.21065170386002663,  w4: 0.41950007815816415, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 12:20:08
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.27163743940461904,  w2: 0.0054711861219183255,  w3: 0.25148814062869596,  w4: 0.4123949180035531, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 12:20:47
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.17191004565132895,  w2: 0.08696293847782277,  w3: 0.39200792336594414,  w4: 0.36419489672594274, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 12:23:07
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 800
+Modelo:  w1: 0.20593571484666873,  w2: 0.14216552020685258,  w3: 0.3243644782092159,  w4: 0.337834147049354, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 12:53:00
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 500
+Modelo:  w1: 0.18645185216511972,  w2: 0.16036281605656577,  w3: 0.3034296220890482,  w4: 0.33749254937809825, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:00:36
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 500
+Modelo:  w1: 0.44872324010040865,  w2: 0.3300655060059756,  w3: -0.02522382547177715,  w4: 1.0470661627832203, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:01:58
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1000
+Modelo:  w1: 0.02956165965828461,  w2: 0.7491069322202959,  w3: -0.9095229590166101,  w4: 1.1743682570543754, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:03:21
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1500
+Modelo:  w1: -0.2990466929943083,  w2: 1.8064327408876135,  w3: -0.5107757982091341,  w4: 0.048818201920338034, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:08:26
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1500
+Modelo:  w1: 0.17081318310311033,  w2: 0.18190518355063467,  w3: 0.3254038249702069,  w4: 0.3174070816132324, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:17:01
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1500
+Modelo:  w1: 0.1073852727635689,  w2: 0.13845698404256757,  w3: 0.3446288897769141,  w4: 0.43780043253674705, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:23:40
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 2000
+Modelo:  w1: 0.1307191552087712,  w2: 0.2454938891115126,  w3: 0.11834130720587233,  w4: 0.47473862056523997, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:25:46
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 2000
+Modelo:  w1: 0.18177752488138044,  w2: 0.23884425309602397,  w3: 0.13404506239611091,  w4: 0.4235402806868156, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:31:51
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 5000
+Modelo:  w1: 0.12435151571762137,  w2: 0.16508295781402005,  w3: 0.277968223891254,  w4: 0.45044831553145137, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:43:08
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1500
+Modelo:  w1: 0.40343919216657387,  w2: 0.03659101380036622,  w3: 0.33691628729539147,  w4: 0.20853437231672967, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 13:48:02
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1500
+Modelo:  w1: 1.4771322079842673,  w2: -1.736644355747475,  w3: 0.6799283756085788,  w4: -0.3013881250133741, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 15:17:01
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 100
+Modelo:  w1: 0.07509513483255814,  w2: 0.33914275675693917,  w3: 0.2941799139497938,  w4: 0.3207278303607133, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 15:21:57
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Val_Minimo_Alcanza
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1265
+Modelo:  w1: 0.1668734987748679,  w2: 0.13557574821179008,  w3: 0.2970990120588004,  w4: 0.4004069692506693, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 15:38:12
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 100
+Modelo:  w1: 0.1685398596434573,  w2: -0.2484008336784309,  w3: 0.29073492331140915,  w4: 0.7202174570083417, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 15:50:25
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 3000
+Modelo:  w1: 0.152543113168913,  w2: 0.15079070026972952,  w3: 0.26641431635714996,  w4: 0.42614172165618935, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 15:59:11
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Val_Minimo_Alcanza
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1961
+Modelo:  w1: 0.16442540744029577,  w2: 0.16024163605261554,  w3: 0.27729713817093415,  w4: 0.3970295262114192, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 16:01:46
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Val_Minimo_Alcanza
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 2326
+Modelo:  w1: 0.14708936487444024,  w2: 0.1549581792821484,  w3: 0.283656603363033,  w4: 0.4145921678021649, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 16:05:11
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Val_Minimo_Alcanza
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 3931
+Modelo:  w1: 0.1340930549278787,  w2: 0.1577568482737317,  w3: 0.29889500845141237,  w4: 0.4097109541888182, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 16:09:10
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 3767
+Modelo:  w1: 0.1631583479720482,  w2: 0.1351694482632877,  w3: 0.2948949598671229,  w4: 0.40084419712396, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 16:13:55
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 5890
+Modelo:  w1: 0.1444462396269781,  w2: 0.16378436569123878,  w3: 0.29882271369082947,  w4: 0.39827822366011745, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 17:14:23
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 1057
+Modelo:  w1: 0.15229613377858842,  w2: 0.15116337984413386,  w3: 0.28156452995137204,  w4: 0.4088749391195958, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 17:16:55
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 827
+Modelo:  w1: 0.15332616256723108,  w2: 0.1581650942546906,  w3: 0.28266642921099683,  w4: 0.40830909045040764, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 17:20:56
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 3611
+Modelo:  w1: 0.15206667806428742,  w2: 0.15564087974343987,  w3: 0.3129632815202301,  w4: 0.38256221465175333, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 17:24:26
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 3759
+Modelo:  w1: 0.13966843241220284,  w2: 0.15817540333374414,  w3: 0.302600944307049,  w4: 0.4005504823951376, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 17:29:37
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 3786
+Modelo:  w1: 0.15795118716154422,  w2: 0.13795123958630962,  w3: 0.30766783332443604,  w4: 0.39389594180305076, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 17:35:30
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 3449
+Modelo:  w1: 0.1448330450434403,  w2: 0.1548187772785039,  w3: 0.31710865915828323,  w4: 0.38529061183495505, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 17:43:15
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 4221
+Modelo:  w1: 0.15105166869824815,  w2: 0.15195780022545158,  w3: 0.2874846760443708,  w4: 0.4118463935572456, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 18:04:36
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 2129
+Modelo:  w1: 0.13970529795119058,  w2: 0.14464626344951403,  w3: 0.3007307162374211,  w4: 0.41014300941656145, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 18:26:39
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 5867
+Modelo:  w1: 0.1404222932717505,  w2: 0.15391810311085186,  w3: 0.31723098775972325,  w4: 0.39272175991828373, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 18:44:20
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Max_Num_Generacion
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 5000
+Modelo:  w1: 0.14984350959892367,  w2: 0.14003683773527076,  w3: 0.3062461607792444,  w4: 0.40223143717714294, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 19:15:50
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Val_Minimo_Alcanza
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 5066
+Modelo:  w1: 0.14822501857151105,  w2: 0.14905454414912356,  w3: 0.30092695190107666,  w4: 0.406447500545418, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 19:24:35
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Val_Minimo_Alcanza
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 3553
+Modelo:  w1: 0.15203218575563637,  w2: 0.15282445390889343,  w3: 0.29199369162506805,  w4: 0.39723045712133764, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 20:15:18
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Val_Minimo_Alcanza
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 4324
+Modelo:  w1: 0.2617432882457238,  w2: 0.07546715947734217,  w3: 0.30812237506137485,  w4: 0.24245539555468243, 
+#####################################################
+
+#####################################################
+Fecha: 12/13/20
+Hora: 20:27:27
+Nombre: Practica1_Entrada.csv
+Criterio Finalizacion: Porcentaje_Val_Fit
+Criterio Seleccion: Sel_Aleatoria
+No Generaciones: 306
+Modelo:  w1: 0.2956795616443464,  w2: -0.05138153406215551,  w3: 0.39132188659560896,  w4: 0.4163372143066928, 
+#####################################################
+

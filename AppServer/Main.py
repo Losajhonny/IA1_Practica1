@@ -1,7 +1,10 @@
 from Algoritmo import *
+import datetime
+import time
+
 
 """
-    0 - Maximo numero de generaciones 
+    0 - Maximo numero de generaciones
     1 - Un valor minimo alcanzado por una solucion de la poblacion
     2 - Un porcentaje de la población que tenga un valor fitness igual
 """
@@ -24,6 +27,13 @@ algoritmo = Algoritmo()
 algoritmo.entrada = entrada
 algoritmo.criterioFin = criterioFin
 algoritmo.criterioSel = criterioSeleccion
-algoritmo.ejecutar()
+#algoritmo.ejecutar()
 
+today = datetime.datetime.now()
+print(today)
+print('ctime  :', today.ctime())
 
+print(time.time())
+
+print ("Fecha " + time.strftime("%x"))
+print ("hora " + time.strftime("%X"))

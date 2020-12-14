@@ -17,13 +17,13 @@
                   <div class="form-check">
                      <input class="form-check-input" type="radio" name="seleccion2-" id="seleccion2-1" (change)="getFinModos(0, $event)">
                      <label class="form-check-label" for="seleccion2-1">
-                        Un valor minimo alcanzado por una solucion de la poblacion
+                        Maximo numero de generaciones
                      </label>
                   </div>
                   <div class="form-check">
                      <input class="form-check-input" type="radio" name="seleccion2-" id="seleccion2-2" (change)="getFinModos(1, $event)" checked>
                      <label class="form-check-label" for="seleccion2-2">
-                        Maximo numero de generaciones
+                        Un valor minimo alcanzado por una solucion de la poblacion
                      </label>
                   </div>
                   <div class="form-check">
@@ -68,29 +68,29 @@
                   <div class="mb-3 row">
                      <label for="p1" class="col-sm-2 col-form-label">Proyecto 1</label>
                      <div class="col-sm-10">
-                        <input type="text" class="form-control" id="p1">
+                        <input type="number" class="form-control" id="p1" [(ngModel)]="nota.proyecto1">
                      </div>
                   </div>
                   <div class="mb-3 row">
                      <label for="p2" class="col-sm-2 col-form-label">Proyecto 2</label>
                      <div class="col-sm-10">
-                        <input type="text" class="form-control" id="p2">
+                        <input type="number" class="form-control" id="p2" [(ngModel)]="nota.proyecto2">
                      </div>
                   </div>
                   <div class="mb-3 row">
                      <label for="p3" class="col-sm-2 col-form-label">Proyecto 3</label>
                      <div class="col-sm-10">
-                        <input type="text" class="form-control" id="p3">
+                        <input type="number" class="form-control" id="p3" [(ngModel)]="nota.proyecto3">
                      </div>
                   </div>
                   <div class="mb-3 row">
                      <label for="p4" class="col-sm-2 col-form-label">Proyecto 4</label>
                      <div class="col-sm-10">
-                        <input type="text" class="form-control" id="p4">
+                        <input type="number" class="form-control" id="p4" [(ngModel)]="nota.proyecto4">
                      </div>
                   </div>
                </div>
-               <button type="button" class="btn btn-success">Calcular Nota</button>
+               <button type="button" class="btn btn-success" (click)="calcular()">Calcular Nota</button>
             </div>
          </div>
       </div>
